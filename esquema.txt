@@ -1,0 +1,24 @@
+{
+  "_id": "int",
+  "nombre": "string",
+  "apellido": "string",
+  "edad": "int",
+  "equipo": "string",
+  "start_year": "int",
+  "pais": "string",
+  "posicion": "string",
+  "estadisticas": {
+    "goles": "int",
+    "pases": "int"
+  },
+  "condicion_fisica": {
+    "peso": "float",
+    "altura": "float",
+    "enfermedades": ["string"],
+    "categoria": "string",
+    "grupo_sanguineo": "string"
+  }
+}
+
+
+

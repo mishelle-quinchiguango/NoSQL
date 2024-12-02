@@ -1,0 +1,101 @@
+_id,nombre,apellido,edad,equipo,start_year,pais,posicion,goles,pases,peso,altura,enfermedades,categoria,grupo_sanguineo
+9408936022,Raquel,García,28,Liverpool,2017,Suecia,Defensora,18,130,69.8,1.73,Asma,B,O+
+5658520424,Blanca,Fernández,25,Olympique Lyon,2017,Italia,Portera,30,80,62.8,1.54,Tendinitis,C,O+
+7971851331,Liliana,Sanz,31,Juventus,2015,Alemania,Portera,25,174,64.4,1.86,Tendinitis,C,O+
+3500490304,Liliana,Serrano,19,Manchester United,2022,Alemania,Delantera,34,164,66.7,1.63,Ninguna,A,A-
+6045180067,Sofía,Ruiz,31,Liverpool,2017,España,Delantera,16,178,57.5,1.85,Asma,C,O+
+7413926184,Liliana,Moreno,35,Olympique Lyon,2019,Dinamarca,Mediocampista,19,76,73.1,1.69,Ninguna,C,AB+
+5129602529,Verónica,Moreno,23,Chelsea,2023,Portugal,Mediocampista,23,155,69.7,1.8,Lesión de rodilla,A,B+
+3764803509,Gabriela,Suárez,38,Liverpool,2020,Alemania,Mediocampista,50,154,68.9,1.87,Asma,A,O-
+4587672029,Patricia,González,31,Barcelona,2023,Alemania,Mediocampista,5,196,50.5,1.88,Lesión de rodilla,A,A-
+1647622049,Sofía,Jiménez,33,Borussia Dortmund,2018,Alemania,Delantera,24,148,73.2,1.8,Lesión de rodilla,C,B+
+6878356328,Melissa,Díaz,23,Juventus,2020,Alemania,Delantera,27,79,54.4,1.72,Asma,C,AB-
+9386544062,Melissa,Sanz,35,Sevilla,2021,Alemania,Delantera,9,114,79.6,1.81,Lesión de rodilla,B,O+
+1280471193,Gabriela,González,34,Olympique Lyon,2015,Alemania,Delantera,29,87,76.0,1.77,Lesión de rodilla,C,AB-
+7796666358,Verónica,López,26,Sevilla,2021,Austria,Delantera,16,85,62.5,1.58,Ninguna,A,A+
+4904290608,Paula,Jiménez,20,Manchester United,2015,Polonia,Portera,29,66,71.1,1.9,Tendinitis,C,O-
+4198111959,María,García,34,Liverpool,2023,España,Defensora,40,168,76.1,1.79,Asma,A,O+
+9557381368,Lizhet,García,28,Olympique Lyon,2020,Dinamarca,Delantera,35,198,74.9,1.72,Lesión de rodilla,C,B-
+7948729494,Elena,Moreno,26,Barcelona,2018,Alemania,Mediocampista,41,152,52.0,1.89,Lesión de rodilla,A,A+
+7728572809,María,García,23,Liverpool,2016,Austria,Delantera,18,111,78.3,1.57,Lesión de rodilla,B,B+
+6481881763,Carmen,Cruz,33,Juventus,2016,Portugal,Defensora,19,119,71.8,1.67,Ninguna,B,B+
+7274236256,Cristina,García,39,Arsenal,2015,Suecia,Delantera,5,159,66.6,1.82,Ninguna,C,B+
+7185698911,Natalia,Díaz,20,Olympique Lyon,2020,Portugal,Defensora,13,198,58.3,1.68,Lesión de rodilla,B,O-
+8865939722,Natalia,Pérez,40,Manchester City,2019,Dinamarca,Delantera,25,130,53.4,1.87,Lesión de rodilla,A,AB+
+8704488808,Gabriela,Martínez,19,Arsenal,2019,Dinamarca,Portera,8,156,75.5,1.64,Asma,B,O-
+2998720313,Adriana,González,35,Sevilla,2015,España,Mediocampista,39,171,72.6,1.74,Asma,A,AB+
+5800826283,Cristina,Moreno,27,Manchester City,2016,Alemania,Delantera,25,138,66.4,1.78,Tendinitis,B,B+
+5794862644,Isabel,Navarro,40,Manchester United,2021,Italia,Mediocampista,29,122,54.0,1.76,Asma,B,AB+
+4520809253,Laura,López,33,Juventus,2021,Portugal,Mediocampista,35,146,56.1,1.72,Lesión de rodilla,B,A+
+6569171179,Mishelle,Serrano,32,Manchester United,2021,España,Portera,31,157,55.3,1.53,Lesión de rodilla,A,AB+
+3089462499,Natalia,Díaz,32,Manchester United,2020,Alemania,Defensora,20,187,53.0,1.8,Asma,B,B-
+8781602849,Blanca,Vega,40,Manchester United,2022,Polonia,Delantera,24,188,55.3,1.74,Tendinitis,A,O+
+8063351455,Liliana,Ruiz,36,Valencia,2015,España,Defensora,36,197,75.0,1.77,Lesión de rodilla,C,B+
+4351959272,María,Díaz,23,Juventus,2021,Portugal,Defensora,41,61,61.6,1.59,Ninguna,B,O+
+6079517705,Melissa,Jiménez,19,Olympique Lyon,2021,Polonia,Delantera,50,132,70.1,1.53,Tendinitis,C,AB+
+4332586916,Mishelle,Díaz,21,Juventus,2023,Polonia,Defensora,38,155,63.7,1.85,Asma,C,O+
+1597232949,Adriana,Serrano,29,Chelsea,2020,Dinamarca,Mediocampista,18,123,60.6,1.86,Lesión de rodilla,A,A+
+6012199360,Mishelle,Cruz,33,Real Madrid,2018,España,Portera,23,199,67.3,1.71,Tendinitis,A,AB-
+1262632739,Raquel,Moreno,38,Valencia,2023,Austria,Mediocampista,18,65,55.7,1.82,Asma,B,O-
+4304464184,Melissa,González,21,Manchester City,2020,Austria,Defensora,17,106,59.3,1.85,Ninguna,C,B+
+2960619162,Mishelle,Sanz,27,Real Madrid,2017,Polonia,Mediocampista,25,144,72.9,1.6,Lesión de rodilla,C,O+
+2646557801,Patricia,López,23,Valencia,2022,Dinamarca,Portera,2,124,60.5,1.56,Ninguna,B,A-
+5998351307,Melissa,Pérez,31,Real Madrid,2016,España,Defensora,0,153,77.3,1.66,Lesión de rodilla,B,B-
+5350984756,Dayana,Navarro,30,Juventus,2019,Portugal,Portera,5,154,58.2,1.61,Lesión de rodilla,A,O+
+1507186391,Dayana,García,27,Manchester City,2019,Dinamarca,Defensora,37,69,53.4,1.63,Asma,B,O-
+1648965709,Dayana,Sanz,29,Real Madrid,2018,Polonia,Mediocampista,49,196,74.4,1.83,Ninguna,C,O-
+9316144038,Isabel,Díaz,21,Arsenal,2022,España,Mediocampista,18,185,79.9,1.66,Asma,B,A-
+2259743915,Natalia,García,39,Chelsea,2015,Portugal,Portera,38,95,58.4,1.62,Lesión de rodilla,B,A+
+3099264518,Natalia,García,24,Chelsea,2018,Polonia,Mediocampista,3,76,69.8,1.62,Tendinitis,A,O+
+2710381064,Elena,Cruz,26,Barcelona,2018,Dinamarca,Portera,39,66,78.8,1.74,Lesión de rodilla,A,A+
+9971271720,Mishelle,Moreno,26,Chelsea,2021,Portugal,Delantera,6,94,57.0,1.6,Tendinitis,B,B+
+7305057224,Isabel,Ruiz,40,Barcelona,2019,Alemania,Defensora,45,177,56.4,1.57,Ninguna,B,O-
+4830323191,Patricia,Martínez,39,Chelsea,2022,Suecia,Delantera,44,189,62.2,1.52,Tendinitis,C,B+
+2563827185,Laura,Ortega,29,Inter de Milán,2019,Polonia,Delantera,17,55,74.6,1.69,Asma,A,AB-
+2583810367,Mishelle,Ruiz,29,Olympique Lyon,2017,España,Portera,9,185,54.5,1.52,Lesión de rodilla,A,A+
+3673705220,Laura,Gómez,40,Juventus,2015,Polonia,Portera,38,197,77.7,1.67,Ninguna,A,O+
+4404381222,Elena,González,29,Chelsea,2019,Portugal,Mediocampista,39,99,59.5,1.54,Asma,A,B-
+9682403532,Liliana,Cruz,31,Manchester City,2020,Dinamarca,Portera,27,154,54.3,1.59,Tendinitis,C,B+
+1774479197,Patricia,Gómez,22,Manchester United,2017,Portugal,Delantera,10,185,59.6,1.88,Lesión de rodilla,A,AB-
+4625930973,Lizhet,Pérez,34,Juventus,2020,Suecia,Portera,38,184,70.8,1.52,Ninguna,C,O-
+7207301047,Blanca,Vega,31,Borussia Dortmund,2020,Suecia,Portera,10,184,63.0,1.86,Ninguna,C,AB-
+1386121327,Mishelle,Gómez,22,Olympique Lyon,2021,Italia,Portera,12,75,54.1,1.52,Asma,A,A-
+2462603527,Verónica,Serrano,23,Manchester City,2021,Dinamarca,Delantera,45,173,79.6,1.85,Ninguna,B,AB+
+1610101302,Raquel,Gómez,23,Olympique Lyon,2017,España,Portera,34,53,78.6,1.57,Asma,B,A+
+9489178334,Raquel,Ramírez,34,Inter de Milán,2023,Italia,Defensora,1,200,56.0,1.54,Lesión de rodilla,C,B+
+8080279917,Lizhet,Cruz,23,Sevilla,2016,Alemania,Delantera,27,84,77.7,1.62,Tendinitis,B,O-
+2770752671,María,Fernández,32,Valencia,2021,Dinamarca,Delantera,35,151,66.0,1.63,Tendinitis,A,A-
+3366440351,Verónica,Díaz,27,Barcelona,2016,Polonia,Delantera,48,65,58.2,1.68,Lesión de rodilla,C,A-
+6539452263,Cristina,Cruz,33,Olympique Lyon,2015,Alemania,Defensora,8,190,50.8,1.9,Tendinitis,B,B+
+5872636473,Carmen,Cruz,30,Sevilla,2019,Suecia,Portera,50,142,79.7,1.79,Lesión de rodilla,A,O-
+5461909013,María,Suárez,27,Valencia,2021,Alemania,Portera,19,198,54.0,1.68,Lesión de rodilla,A,O+
+6396345511,Laura,Pérez,23,Real Madrid,2022,Dinamarca,Mediocampista,19,53,55.6,1.5,Lesión de rodilla,A,AB+
+5620139367,María,Martínez,30,Real Madrid,2018,España,Mediocampista,29,119,61.7,1.51,Tendinitis,B,O-
+4392471408,Liliana,Gómez,24,Borussia Dortmund,2021,España,Portera,33,100,53.8,1.52,Asma,B,B+
+5355419731,Raquel,García,26,Valencia,2019,Dinamarca,Defensora,30,55,58.2,1.64,Ninguna,C,O+
+5701007115,Natalia,Moreno,34,Juventus,2017,Dinamarca,Mediocampista,48,150,58.5,1.55,Tendinitis,C,B-
+1888874681,Mishelle,Pérez,25,Manchester United,2016,Dinamarca,Mediocampista,31,185,77.6,1.8,Asma,A,O-
+7209986301,Dayana,Vega,34,Chelsea,2018,Austria,Mediocampista,33,84,72.6,1.63,Lesión de rodilla,A,A+
+8055270176,Paula,Sanz,29,Manchester United,2019,España,Mediocampista,47,118,66.8,1.74,Ninguna,B,A-
+8054496165,Verónica,Suárez,31,Barcelona,2017,Alemania,Mediocampista,9,156,60.3,1.72,Ninguna,A,B+
+9872441736,Laura,Suárez,35,Manchester City,2019,Polonia,Defensora,36,105,61.6,1.79,Asma,A,O+
+9823395155,Sofía,Pérez,18,Arsenal,2022,Dinamarca,Mediocampista,1,143,52.6,1.66,Lesión de rodilla,C,A+
+3522660007,Blanca,González,40,Real Madrid,2023,Dinamarca,Delantera,41,125,65.0,1.66,Asma,A,AB+
+8406680281,Patricia,Ruiz,30,Manchester City,2021,Portugal,Mediocampista,11,70,66.4,1.52,Tendinitis,A,O-
+9125620557,Dayana,Ramírez,27,Sevilla,2019,España,Delantera,48,168,61.6,1.58,Lesión de rodilla,A,AB+
+6797520920,Adriana,García,25,Manchester United,2016,Dinamarca,Mediocampista,17,90,77.5,1.71,Asma,A,AB-
+2052545291,Natalia,Serrano,37,Valencia,2017,Italia,Mediocampista,46,91,72.7,1.78,Tendinitis,B,AB-
+6970826997,Natalia,Pérez,20,Manchester United,2015,Polonia,Portera,9,56,67.2,1.72,Asma,C,O+
+8720394117,Lizhet,Ramírez,19,Liverpool,2018,España,Delantera,23,112,67.5,1.67,Tendinitis,C,AB+
+6882072799,María,Sanz,31,Manchester City,2016,Polonia,Portera,47,136,62.0,1.66,Tendinitis,B,A+
+9652468497,Patricia,Ruiz,20,Arsenal,2017,Polonia,Portera,2,104,51.6,1.67,Tendinitis,A,A-
+6794980498,Gabriela,Ortega,29,Inter de Milán,2023,Alemania,Mediocampista,41,84,53.7,1.81,Ninguna,B,O+
+3964559752,Elena,López,36,Sevilla,2018,Dinamarca,Portera,19,151,56.8,1.79,Lesión de rodilla,A,O-
+3235566346,Gabriela,Ramírez,39,Borussia Dortmund,2015,Italia,Portera,17,112,78.8,1.55,Lesión de rodilla,A,A-
+9670881129,Lizhet,Serrano,29,Chelsea,2021,Italia,Mediocampista,24,131,56.9,1.76,Ninguna,B,B+
+4111317352,Raquel,López,35,Barcelona,2016,Austria,Portera,41,94,69.3,1.71,Tendinitis,C,B-
+9142652319,Blanca,Ruiz,36,Sevilla,2023,Portugal,Delantera,6,145,69.3,1.51,Lesión de rodilla,A,AB-
+2711006198,Blanca,Fernández,39,Real Madrid,2017,Polonia,Mediocampista,37,91,70.5,1.65,Ninguna,A,AB+
+6471009290,Sofía,Cruz,40,Liverpool,2020,Suecia,Delantera,11,174,54.6,1.71,Tendinitis,B,O+
+8073314760,Patricia,López,28,Manchester United,2020,España,Delantera,28,130,79.4,1.75,Tendinitis,A,AB+
+3259401917,Laura,Moreno,36,Juventus,2015,Polonia,Defensora,32,143,58.7,1.78,Ninguna,C,AB-

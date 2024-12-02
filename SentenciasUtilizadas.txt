@@ -1,0 +1,174 @@
+# 1. Insercción manual de una jugadora
+
+import pymongo
+from datetime import datetime, timedelta
+
+# Conexión a MongoDB
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+db = client["JugadorasFemeninas"]  # Base de datos 'JugadorasFemeninas'
+collection = db["jugadoras"]  # Colección 'jugadoras'
+
+# Datos a insertar
+jugadora = {
+    "dni": 12345,
+    "nombre": "Estefania",
+    "apellido": "Quinchiguango",
+    "edad": 25,
+    "ocupacion": "Futbolista",
+    "equipo": "Manchester United",
+    "start_year": 2021,
+    "pais": "España",
+    "posicion": "Delantera",
+    "estadisticas": {
+        "goles": 30,
+        "pases": 45
+    },
+    "condicion_fisica": {
+        "peso": 58.5,
+        "altura": 1.67,
+        "enfermedades": ["Asma"],
+        "categoria": "Profesional",
+        "grupo_sanguineo": "A+"
+    }
+}
+
+# Insertar el documento en MongoDB
+collection.insert_one(jugadora)
+
+print("Datos insertados correctamente en MongoDB.")
+
+
+# Comprobación de inserción
+db["jugadoras"].find()
+
+
+
+
+
+#########################################################################################################################################################################
+
+# 2. Modificaciones
+
+## Modificar nombre de la jugadora con id: 9408936022
+import pymongo
+from datetime import datetime, timedelta
+import pandas as pd
+
+# Conexión a MongoDB
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+db = client["JugadorasFemeninas"]  
+collection = db["jugadoras"]  
+
+jugadora = collection.find_one({"_id": 9408936022})
+
+if jugadora:
+    nuevo_nombre = jugadora["nombre"].upper()
+
+    collection.update_one(
+        {"_id": 9408936022},
+        {"$set": {"nombre": nuevo_nombre}}
+    )
+    print("Nombre actualizado a mayúsculas:", nuevo_nombre)
+else:
+    print("No se encontró la jugadora con el ID especificado.")
+
+
+
+
+
+# Comprobación de modificación
+db["jugadoras"].find({"_id": 9408936022})
+
+
+
+
+
+
+## Modificar nombre de la jugadora con id: 5658520424
+import pymongo
+from datetime import datetime, timedelta
+import pandas as pd
+
+# Conexión a MongoDB
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+db = client["JugadorasFemeninas"]  
+collection = db["jugadoras"]  
+
+jugadora = collection.find_one({"_id": 5658520424})
+
+if jugadora:
+    nuevo_nombre = jugadora["nombre"].upper()
+
+    collection.update_one(
+        {"_id": 5658520424},
+        {"$set": {"nombre": nuevo_nombre}}
+    )
+    print("Nombre actualizado a mayúsculas:", nuevo_nombre)
+else:
+    print("No se encontró la jugadora con el ID especificado.")
+
+
+
+
+# Comprobación de modificación
+db["jugadoras"].find({"_id": 5658520424})
+
+
+
+
+#########################################################################################################################################################################################################################
+# 3. Consultas
+
+# Consulta por una jugadora específica
+db["jugadoras"].find({_id: 9386544062, start_year: { $gt: 2020 } }).pretty()
+
+# Obtener el tiempo de ejecución de la consulta
+db["jugadoras"].find({_id: 9386544062, start_year: { $gt: 2020 } }).explain("executionStats").executionStats.executionTimeMillis
+
+
+
+# Filtrar por Equipos que Empiecen con "Manchester…"
+db["jugadoras"].find({_id: 3500490304,  equipo: { $regex: "^Manchester", $options: "i" } }).pretty()
+
+# Obtener el tiempo de ejecución de la consulta
+db["jugadoras"].find({_id: 3500490304,  equipo: { $regex: "^Manchester", $options: "i" } }).explain("executionStats").executionStats.executionTimeMillis
+
+
+
+
+# Consulta por un País Específico
+db["jugadoras"].find({_id: 6045180067, pais: "España"}).pretty()
+
+// Obtener el tiempo de ejecución de la consulta
+db["jugadoras"].find({_id: 6045180067, pais: "España"}).explain("executionStats").executionStats.executionTimeMillis
+
+
+
+
+####################################################################################################################################################################################
+# 4. Índices para Optimización
+
+import pymongo
+from pymongo import IndexModel, ASCENDING
+
+# Conexión a MongoDB
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+db = client["JugadorasFemeninas"]  
+collection = db["jugadoras"]  
+
+# Crear índice en el campo 'equipo'
+collection.create_indexes([
+    IndexModel([("equipo", ASCENDING)])
+])
+
+# Crear índice en el campo 'pais'
+collection.create_indexes([
+    IndexModel([("pais", ASCENDING)])
+])
+
+# Crear índice en el campo 'start_year'
+collection.create_indexes([
+    IndexModel([("start_year", ASCENDING)])
+])
+
+print("Índices creados exitosamente.")
